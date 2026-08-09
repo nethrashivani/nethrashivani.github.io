@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nethra Shivani — Software Engineer</title>
+<meta name="description" content="Portfolio of Nethra Shivani — CS &amp; Business Systems student, full-stack and LLM/AI developer, QA automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="#top" class="mark">Nethra Shivani</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="wrap hero">
+    <div>
+      <div class="status-line">
+        <span class="status-dot" aria-hidden="true"></span>
+        Open to SDE / QA / AI-engineering roles &middot; Chennai, India
+      </div>
+      <h1>Nethra Shivani</h1>
+      <div class="role">Full-stack developer &middot; LLM evaluation &amp; test automation</div>
+      <p class="lede">
+        I'm a Computer Science &amp; Business Systems graduate who likes building things
+        and then proving, rigorously, that they work. My work sits between full-stack
+        development and AI evaluation — Spring Boot and React on one side, LLM
+        regression pipelines and prompt evaluation on the other.
+      </p>
+      <div class="links">
+        <a href="https://github.com/nethrashivani" target="_blank" rel="noopener">GitHub</a>
+        <span class="sep">/</span>
+        <a href="https://www.linkedin.com/in/nethrashivani/" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="sep">/</span>
+        <a href="#" id="leetcode-link" target="_blank" rel="noopener">LeetCode</a>
+        <span class="sep">/</span>
+        <a href="mailto:nethrashivanims@gmail.com">Email</a>
+        <span class="sep">/</span>
+        <a href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      </div>
+    </div>
+    <div class="avatar" aria-hidden="true">photo<br>goes<br>here</div>
+  </header>
+
+  <section id="about" class="wrap about">
+    <div class="section-head"><h2>About</h2></div>
+    <p>
+      I graduated with a B.Tech in Computer Science and Business Systems from Panimalar
+      Engineering College (CGPA 8.50). Most recently I worked as a Quality &amp; Validation
+      Automation Testing intern at Capgemini, where I automated 80+ test cases and built
+      CI/CD pipelines for a travel booking platform — work that shaped how I think about
+      software: not just does it run, but does it hold up.
+    </p>
+    <p>
+      Outside of coursework and internships, I've built an LLM regression-detection
+      system, a full-stack skill-exchange platform, and a Chrome extension that reads
+      product reviews so shoppers don't have to. I've also led a 36-hour national-level
+      hackathon and helped run a TEDx event on campus — I like being in the room where
+      things get organized, not just built.
+    </p>
+  </section>
+
+  <section id="experience" class="wrap">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <span class="count">01 role</span>
+    </div>
+    <div class="exp-item">
+      <div class="exp-date">Jan 2026 —<br>May 2026</div>
+      <div>
+        <div class="exp-role">V&amp;V Automation Testing Intern</div>
+        <div class="exp-org">Capgemini &middot; Chennai, Tamil Nadu</div>
+        <ul>
+          <li>Automated 80+ test cases using Selenium WebDriver with Java.</li>
+          <li>Created and executed BDD test scenarios using Cucumber and TestNG to validate application functionality.</li>
+          <li>Conducted functional and regression testing across key modules of a travel booking platform.</li>
+          <li>Configured Jenkins pipelines to automate test execution as part of the CI/CD workflow.</li>
+          <li>Collaborated with the team using Git/GitHub for version control and change tracking.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <span class="count">03 selected</span>
+    </div>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="stamp">tested<br>&amp; verified</div>
+        <h3>Model Regression Detection System</h3>
+        <div class="tech">
+          <span>Python</span><span>Groq API</span><span>Pydantic</span><span>SQLite</span><span>asyncio</span><span>pytest</span>
+        </div>
+        <p>
+          A provider-agnostic LLM evaluation pipeline that catches quality regressions
+          in an email classifier whenever prompts or models change. Built on an
+          80-case golden dataset sourced from real support tickets and GitHub bug
+          reports, with async batch evaluation, configurable regression thresholds,
+          auto-retry with exponential backoff, and self-contained HTML scorecards.
+          Backed by 30+ unit tests that run without hitting a live API.
+        </p>
+        <a class="repo-link" href="https://github.com/nethrashivani" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="stamp">full<br>stack</div>
+        <h3>SkillSwap — Skill Exchange Platform</h3>
+        <div class="tech">
+          <span>React</span><span>Spring Boot</span><span>Java</span><span>MySQL</span><span>REST API</span><span>Swagger</span>
+        </div>
+        <p>
+          A full-stack platform where users build profiles, list skills, and connect
+          with each other to trade knowledge. Spring Boot REST APIs backed by a
+          relational MySQL schema, documented and validated with Swagger and Postman,
+          integrated with a responsive React frontend.
+        </p>
+        <a class="repo-link" href="https://github.com/nethrashivani" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="stamp">browser<br>tool</div>
+        <h3>Review Insight — Chrome Extension</h3>
+        <div class="tech">
+          <span>JavaScript</span><span>Chrome Extension API</span><span>HTML</span><span>CSS</span>
+        </div>
+        <p>
+          Reads product reviews on Amazon, Meesho, Myntra, and Ajio in real time and
+          gives an instant verdict — Recommended, Consider, or Not Recommended — using
+          rule-based sentiment analysis over ratings and text, without ever leaving
+          the shopping page.
+        </p>
+        <a class="repo-link" href="https://github.com/nethrashivani" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="leadership" class="wrap">
+    <div class="section-head">
+      <h2>Leadership &amp; Activities</h2>
+    </div>
+    <ul class="lead-list">
+      <li><span><strong>Hackathon host</strong> — led and hosted a 36-hour national-level hackathon, managing end-to-end logistics, scheduling, and participant support.</span></li>
+      <li><span><strong>TEDx organizer</strong> — coordinated speakers, teams, and event execution for a campus TEDx event.</span></li>
+      <li><span><strong>Conference organizer</strong> — contributed to planning and coordination for a technical paper conference.</span></li>
+    </ul>
+  </section>
+
+  <section id="education" class="wrap">
+    <div class="section-head">
+      <h2>Education</h2>
+    </div>
+    <div class="edu-item">
+      <div class="exp-date">2022 — 2026</div>
+      <div>
+        <h3>B.Tech, Computer Science &amp; Business Systems</h3>
+        <div class="meta">Panimalar Engineering College, Chennai &middot; CGPA 8.50</div>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="exp-date">2019 — 2020</div>
+      <div>
+        <h3>12th Grade, CBSE</h3>
+        <div class="meta">Velammal Vidyalaya, Paruthipattu, Chennai &middot; 82.4%</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap contact">
+    <div class="eyebrow">Get in touch</div>
+    <h2>Let's talk.</h2>
+    <p>
+      I'm looking for full-time roles where I can build things and test them properly —
+      software engineering, QA/test automation, or applied AI. Reach out any way that's easiest.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:nethrashivanims@gmail.com">nethrashivanims@gmail.com</a>
+      <button class="copy-btn" id="copy-email" type="button">Copy email</button>
+      <a href="https://github.com/nethrashivani" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/nethrashivani/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="#" id="leetcode-link-2" target="_blank" rel="noopener">LeetCode ↗</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Nethra Shivani</span>
+  <span>Built with care, tested with even more.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
