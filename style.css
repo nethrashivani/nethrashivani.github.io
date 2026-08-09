@@ -216,8 +216,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; margin: 0; color: var(
 .hero .links span.sep { color: var(--line); }
 
 .avatar {
-  width: 148px;
-  height: 148px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 1.5px dashed var(--ink-faint);
   display: flex;
