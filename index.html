@@ -1,238 +1,641 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nethrashivani — Computer Science Engineer</title>
-<meta name="description" content="Portfolio of Nethra Shivani — CS &amp; Business Systems student, full-stack and LLM/AI developer, QA automation.">
-
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nethrashivani M S — Full-stack developer &amp; LLM evaluation">
-<meta property="og:description" content="CS &amp; Business Systems graduate building full-stack apps and LLM evaluation pipelines. Fresher open to SDE, QA, and AI-engineering roles in Chennai.">
-<meta property="og:image" content="https://nethrashivani.github.io/og-image.png">
-<meta property="og:url" content="https://nethrashivani.github.io/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Nethrashivani M S — Full-stack developer &amp; LLM evaluation">
-<meta name="twitter:description" content="CS &amp; Business Systems graduate building full-stack apps and LLM evaluation pipelines. Fresher open to SDE, QA, and AI-engineering roles in Chennai.">
-<meta name="twitter:image" content="https://nethrashivani.github.io/og-image.png">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<script>
-  (function () {
-    var saved = localStorage.getItem('theme');
-    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
-  })();
-</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nethrashivani M S | Data Analyst and AI Engineer</title>
+  <meta name="description" content="Nethrashivani M S  - Data Analyst Portfolio | Turning data into decisions" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<nav class="site-nav">
-  <div class="wrap">
-    <a href="#top" class="mark">Nethrashivani M S</a>
-    <div class="nav-right">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
-    </div>
-  </div>
-</nav>
-
-<main id="top">
-  <header class="wrap hero">
-    <div>
-      <div class="status-line">
-        <span class="status-dot" aria-hidden="true"></span>
-        Open to SDE / Data Engineering / AI-engineering roles &middot; Chennai, India
-      </div>
-      <h1>Nethrashivani M S</h1>
-      <div class="role">Full-stack developer &middot; LLM evaluation &amp; Data Engineer</div>
-      <p class="lede">
-        I'm a Computer Science &amp; Business Systems graduate who likes building things
-        and then proving, rigorously, that they work. My work sits between full-stack
-        development and AI evaluation — Spring Boot and React on one side, LLM
-        regression pipelines and prompt evaluation on the other.
-      </p>
-      <div class="links">
-        <a href="https://github.com/nethrashivani" target="_blank" rel="noopener">GitHub</a>
-        <span class="sep">/</span>
-        <a href="https://www.linkedin.com/in/nethrashivani/" target="_blank" rel="noopener">LinkedIn</a>
-        <span class="sep">/</span>
-        <a href="https://leetcode.com/u/Nethrashivani/" id="leetcode-link" target="_blank" rel="noopener">LeetCode</a>
-        <span class="sep">/</span>
-        <a href="mailto:nethrashivanims@gmail.com">Email</a>
-        <span class="sep">/</span>
-        <a href="M_S_NETHRASHIVANI_RAGWORKS.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+  <!-- NAV -->
+  <header>
+    <div class="nav-inner">
+      <span class="logo disp">NS</span>
+      <nav class="nav-links">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#resume">Resume</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="nav-icons">
+        <a class="icon-link" href="https://github.com/nethrashivani" aria-label="GitHub" target="_blank" rel="noopener">
+          <svg class="icon" width="17" height="17" viewBox="0 0 24 24">
+            <path
+              d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+          </svg>
+        </a>
+        <a class="icon-link" href="https://linkedin.com/in/nethrashivani" aria-label="LinkedIn" target="_blank"
+          rel="noopener">
+          <svg class="icon" width="17" height="17" viewBox="0 0 24 24">
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+            <path d="M10 21v-7a3 3 0 0 1 6 0v7M10 12v9" />
+          </svg>
+        </a>
+        <a class="icon-link" href="mailto:nethrashivanims@gmail.com" aria-label="Email">
+          <svg class="icon" width="17" height="17" viewBox="0 0 24 24">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 6-10 7L2 6" />
+          </svg>
+        </a>
       </div>
     </div>
-    <img class="avatar" src="Profpic.jpeg" alt="Nethrashivani M S">
   </header>
 
-  <section id="about" class="wrap about">
-    <div class="section-head"><h2>About</h2></div>
-    <p>
-      I graduated with a B.Tech in Computer Science and Business Systems from Panimalar
-      Engineering College (CGPA 8.50). Most recently I worked as a Quality &amp; Validation
-      Automation Testing intern at Capgemini, where I automated 80+ test cases and built
-      CI/CD pipelines for a travel booking platform — work that shaped how I think about
-      software: not just does it run, but does it hold up.
-    </p>
-    <p>
-      Outside of coursework and internships, I've built an LLM regression-detection
-      system, a full-stack skill-exchange platform, and a Chrome extension that reads
-      product reviews so shoppers don't have to. I've also led a 36-hour national-level
-      hackathon and helped run a TEDx event on campus — I like being in the room where
-      things get organized, not just built.
-    </p>
-    <p>
-      Right now I'm digging deeper into LLM evaluation and RAG systems — how to make
-      AI outputs measurably reliable, not just plausible-sounding. If you're working on
-      something in that space, or hiring for it, I'd like to hear about it.
-    </p>
-  </section>
-
-  <section id="experience" class="wrap">
-    <div class="section-head">
-      <h2>Experience</h2>
-      <span class="count">01 role</span>
+  <!-- HOME / HERO -->
+  <section id="home" class="velvet">
+    <div>
+      <h1 class="disp">Nethrashivani M S</h1>
+      <p class="hero-role disp">AI Engineer - Data Science</p>
+      <p class="hero-desc">
+        Building practical AI solutions using RAG, document chunking, embeddings, and semantic search, while
+        transforming complex data into actionable insights using Python, SQL, and Excel. Passionate about
+        solving real-world problems through intelligent and data-driven approaches.
+      </p>
+      <div class="hero-actions">
+        <a href="Resume_Nethrashivani M S.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+          </svg>
+          Resume
+        </a>
+        <a href="#contact" class="btn-ghost">Contact Me</a>
+      </div>
     </div>
-    <div class="exp-item">
-      <div class="exp-date">Jan 2026 —<br>May 2026</div>
-      <div>
-        <div class="exp-role">V&amp;V Automation Testing Intern</div>
-        <div class="exp-org">Capgemini &middot; Chennai, Tamil Nadu</div>
-        <ul>
-          <li>Automated 80+ test cases using Selenium WebDriver with Java.</li>
-          <li>Created and executed BDD test scenarios using Cucumber and TestNG to validate application functionality.</li>
-          <li>Conducted functional and regression testing across key modules of a travel booking platform.</li>
-          <li>Configured Jenkins pipelines to automate test execution as part of the CI/CD workflow.</li>
-          <li>Collaborated with the team using Git/GitHub for version control and change tracking.</li>
-        </ul>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo">
+        <img src="MyImage.jpeg" alt="Nethrashivani">
       </div>
     </div>
   </section>
 
-  <section id="projects" class="wrap">
+  <!-- ABOUT -->
+  <section id="about" class="section">
     <div class="section-head">
-      <h2>Projects</h2>
-      <span class="count">03 selected</span>
+      <div class="eyebrow mono">about</div>
+      <h2 class="disp">About Me</h2>
+      <div class="rule"></div>
     </div>
-    <div class="project-grid">
-
-      <article class="project-card">
-        <div class="stamp">tested<br>&amp; verified</div>
-        <h3>Model Regression Detection System</h3>
-        <div class="tech">
-          <span>Python</span><span>Groq API</span><span>Pydantic</span><span>SQLite</span><span>asyncio</span><span>pytest</span>
-        </div>
+    <div class="two-col">
+      <div class="card about-card">
+        <h3 class="disp">Who I Am</h3>
         <p>
-          A provider-agnostic LLM evaluation pipeline that catches quality regressions
-          in an email classifier whenever prompts or models change. Built on an
-          80-case golden dataset sourced from real support tickets and GitHub bug
-          reports, with async batch evaluation, configurable regression thresholds,
-          auto-retry with exponential backoff, and self-contained HTML scorecards.
-          Backed by 30+ unit tests that run without hitting a live API.
+          I'm Nethrashivani, a Chennai-based Data Analyst with a passion for uncovering
+          insights and driving data-informed decisions. Skilled in Python, SQL, Excel and Power BI, I turn raw data into meaningful stories.
         </p>
-        <a class="repo-link" href="https://github.com/nethrashivani/Model-Regression-Detection-System" target="_blank" rel="noopener">View on GitHub →</a>
-      </article>
-
-      <article class="project-card">
-        <div class="stamp">full<br>stack</div>
-        <h3>SkillSwap — Skill Exchange Platform</h3>
-        <div class="tech">
-          <span>React</span><span>Spring Boot</span><span>Java</span><span>MySQL</span><span>REST API</span><span>Swagger</span>
-        </div>
         <p>
-          A full-stack platform where users build profiles, list skills, and connect
-          with each other to trade knowledge. Spring Boot REST APIs backed by a
-          relational MySQL schema, documented and validated with Swagger and Postman,
-          integrated with a responsive React frontend.
+          I'm detail-oriented, solution-focused, and love solving real-world problems through
+          data. My analytical mindset and technical skills allow me to extract valuable
+          insights that help organizations make better decisions.
         </p>
-        <a class="repo-link" href="https://github.com/nethrashivani/SkillSwap" target="_blank" rel="noopener">View on GitHub →</a>
-      </article>
-
-      <article class="project-card">
-        <div class="stamp">browser<br>tool</div>
-        <h3>Review Insight — Chrome Extension</h3>
-        <div class="tech">
-          <span>JavaScript</span><span>Chrome Extension API</span><span>HTML</span><span>CSS</span>
-        </div>
-        <p>
-          Reads product reviews on Amazon, Meesho, Myntra, and Ajio in real time and
-          gives an instant verdict — Recommended, Consider, or Not Recommended — using
-          rule-based sentiment analysis over ratings and text, without ever leaving
-          the shopping page.
-        </p>
-        <a class="repo-link" href="https://github.com/nethrashivani/FakeReviewDetectionUsingML" target="_blank" rel="noopener">View on GitHub →</a>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="leadership" class="wrap">
-    <div class="section-head">
-      <h2>Leadership &amp; Activities</h2>
-    </div>
-    <ul class="lead-list">
-      <li><span><strong>Hackathon host</strong> — led and hosted a 36-hour national-level hackathon, managing end-to-end logistics, scheduling, and participant support.</span></li>
-      <li><span><strong>TEDx organizer</strong> — coordinated speakers, teams, and event execution for a campus TEDx event.</span></li>
-      <li><span><strong>Conference organizer</strong> — contributed to planning and coordination for a technical paper conference.</span></li>
-    </ul>
-  </section>
-
-  <section id="education" class="wrap">
-    <div class="section-head">
-      <h2>Education</h2>
-    </div>
-    <div class="edu-item">
-      <div class="exp-date">2022 — 2026</div>
-      <div>
-        <h3>B.Tech, Computer Science &amp; Business Systems</h3>
-        <div class="meta">Panimalar Engineering College, Chennai &middot; CGPA 8.50</div>
       </div>
-    </div>
-    <div class="edu-item">
-      <div class="exp-date">2019 — 2020</div>
-      <div>
-        <h3>12th Grade, CBSE</h3>
-        <div class="meta">Velammal Vidyalaya, Paruthipattu, Chennai &middot; 82.4%</div>
+      <div class="card about-card">
+        <h3 class="disp">Contact Details</h3>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 6-10 7L2 6" />
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">nethrashivanims@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <path
+                d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2Z" />
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+91 9444004173</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Chennai, India</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="wrap contact">
-    <div class="eyebrow"></div>
-    <h2>Let's talk.</h2>
-    <p>
-      I'm looking for full-time roles where I can build things and test them properly —
-      software engineering, Data Engineering or applied AI. Reach out any way that's easiest.
-    </p>
-    <div class="contact-links">
-      <a href="mailto:nethrashivanims@gmail.com">nethrashivanims@gmail.com</a>
-      <button class="copy-btn" id="copy-email" type="button">Copy email</button>
-      <a href="https://github.com/nethrashivani" target="_blank" rel="noopener">GitHub ↗</a>
-      <a href="https://www.linkedin.com/in/nethrashivani/" target="_blank" rel="noopener">LinkedIn ↗</a>
-      <a href="#" id="leetcode-link-2" target="_blank" rel="noopener">LeetCode ↗</a>
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <div class="eyebrow mono">projects</div>
+      <h2 class="disp">Projects</h2>
+      <div class="rule"></div>
+      <p>A selection of recent data analysis projects that showcase my skills and expertise.</p>
+    </div>
+    <div class="grid-auto">
+      <div class="card project-card">
+        <h3 class="disp">Model Regression Detection System</h3>
+        <p>CI/CD-style evaluation pipeline that tests LLM-powered features against a golden dataset, detects quality
+          regressions, and tracks model performance across prompt versions.</p>
+
+        <div class="tag-row">
+          <span class="tag-gold mono">Python</span>
+          <span class="tag-gold mono">LLMs</span>
+          <span class="tag-gold mono">LLM Evaluation</span>
+          <span class="tag-gold mono">SQLite</span>
+          <span class="tag-gold mono">GitHub Actions</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/nethrashivani/Model-Regression-Detection-System" target="_blank"
+            class="icon-link">
+            <svg target="_blank" class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+            </svg>
+            View Project
+          </a>
+          <a href="https://github.com/nethrashivani/Model-Regression-Detection-System" target="_blank"
+            class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+            </svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <h3 class="disp">Movie Recommendation System</h3>
+        <p>Content-based recommendation system that uses movie feature representations and cosine similarity to generate
+          the top 5 similar movies from a user's selection.</p>
+
+        <div class="tag-row">
+          <span class="tag-gold mono">Python</span>
+          <span class="tag-gold mono">Pandas</span>
+          <span class="tag-gold mono">Scikit-learn</span>
+          <span class="tag-gold mono">Cosine Similarity</span>
+          <span class="tag-gold mono">Streamlit</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/nethrashivani/Movie-Recommendation-System" target="_blank" class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+            </svg>
+            View Project
+          </a>
+          <a href="https://github.com/nethrashivani/Movie-Recommendation-System" target="_blank" class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+            </svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <h3 class="disp">TrustLens – E-commerce Review Analyzer</h3>
+        <p>Chrome extension that analyzes visible product reviews and platform-level ratings to evaluate review
+          sentiment, detect suspicious patterns, and generate an explainable product trust verdict.</p>
+
+        <div class="tag-row">
+          <span class="tag-gold mono">JavaScript</span>
+          <span class="tag-gold mono">Chrome Extension API</span>
+          <span class="tag-gold mono">NLP</span>
+          <span class="tag-gold mono">DOM Analysis</span>
+          <span class="tag-gold mono">Rule-Based AI</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/nethrashivani/Ecommerce-Review-Analyzer" target="_blank" class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+            </svg>
+            View Project
+          </a>
+          <a href="https://github.com/nethrashivani/Ecommerce-Review-Analyzer" target="_blank" class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+            </svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <h3 class="disp">Meal Recipe Search App</h3>
+        <p>Interactive recipe search application that uses a public API to fetch meals by name or ingredient and
+          dynamically displays recipes, cooking instructions, and related video tutorials.</p>
+
+        <div class="tag-row">
+          <span class="tag-gold mono">JavaScript</span>
+          <span class="tag-gold mono">HTML</span>
+          <span class="tag-gold mono">Tailwind CSS</span>
+          <span class="tag-gold mono">REST API</span>
+          <span class="tag-gold mono">Async/Await</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://nethrashivani.github.io/MealSearchUsingAPI/" target="_blank" class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+            </svg>
+            View Project
+          </a>
+          <a href="https://github.com/nethrashivani/MealSearchUsingAPI" target="_blank" class="icon-link">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+            </svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
     </div>
   </section>
-</main>
-<br>
-<footer class="wrap">
-  <span>© 2026 Nethra Shivani</span>
-  <br>
-  <span>Built with care, tested with even more.</span>
-</footer>
 
-<script src="script.js"></script>
+
+  <!-- SKILLS -->
+  <!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="section-head" style="margin-bottom:32px;">
+    <div class="eyebrow mono">skills</div>
+    <h2 class="disp">Toolkit</h2>
+    <div class="rule"></div>
+  </div>
+
+  <div class="skills-grid">
+
+    <!-- RAG & AI -->
+    <div class="skill-card">
+      <h3>RAG &amp; AI</h3>
+
+      <div class="skill-list">
+
+        <div class="skill-item">
+          <span class="skill-icon">R</span>
+          <span>RAG</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">DC</span>
+          <span>Document Chunking</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">E</span>
+          <span>Embeddings</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">SS</span>
+          <span>Semantic Search</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">LL</span>
+          <span>LLMs</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">PE</span>
+          <span>Prompt Engineering</span>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- DATA ANALYSIS -->
+    <div class="skill-card">
+      <h3>Data Analysis</h3>
+
+      <div class="skill-list">
+
+        <div class="skill-item">
+          <span class="skill-icon">Py</span>
+          <span>Python</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">SQL</span>
+          <span>SQL</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">Pd</span>
+          <span>Pandas</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">Np</span>
+          <span>NumPy</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">X</span>
+          <span>Excel</span>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- DATA VISUALIZATION & TOOLS -->
+    <div class="skill-card">
+      <h3>Data Visualization &amp; Tools</h3>
+
+      <div class="skill-list">
+
+        <div class="skill-item">
+          <span class="skill-icon">BI</span>
+          <span>Power BI</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">M</span>
+          <span>Matplotlib</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">S</span>
+          <span>Streamlit</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">ML</span>
+          <span>Scikit-learn</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">LC</span>
+          <span>LangChain</span>
+        </div>
+
+        <div class="skill-item">
+          <span class="skill-icon">GH</span>
+          <span>Git &amp; GitHub</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <div class="section-head">
+      <div class="eyebrow mono">resume</div>
+      <h2 class="disp">Resume</h2>
+      <div class="rule"></div>
+     <p>Explore my skills, projects, and qualifications in data analytics and AI.</p>
+      <a href="Resume_Nethrashivani M S.pdf" class="btn-primary" download>
+        <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+        </svg>
+        Download Resume
+      </a>
+    </div>
+
+    <div class="resume-cols">
+      <div>
+        <div class="resume-col-head">
+          <svg class="icon" width="18" height="18" viewBox="0 0 24 24" style="color:var(--gold)">
+            <rect x="4" y="2" width="16" height="20" rx="1" />
+            <path
+              d="M9 22v-4h6v4M8 6h.01M8 10h.01M8 14h.01M12 6h.01M12 10h.01M12 14h.01M16 6h.01M16 10h.01M16 14h.01" />
+          </svg>
+          <h3 class="disp">Experience</h3>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot dot-gold"></span>
+            <span class="timeline-connector"></span>
+          </div>
+          <div class="card timeline-card">
+            <div class="timeline-top">
+              <h4 class="timeline-title">VV Automation Testing Trainee</h4>
+              <span class="timeline-date date-gold mono">Jan 2026 — May 2026</span>
+            </div>
+            <div class="timeline-org">Capgemini</div>
+            <ul>
+              <li>Automated <strong>75+</strong> test cases using Selenium WebDriver with <strong>Java</strong>.</li>
+              <li>Created and executed BDD test scenarios using Cucumber and TestNG to validate application
+                functionality.</li>
+              <li>Conducted functional and regression testing across key modules of a travel booking platform to ensure
+                software reliability.</li>
+              <li>Configured Jenkins pipelines to automate test execution as part of the <strong>CI/CD</strong>
+                workflow.</li>
+              <li>Collaborated with the team using <strong>Git/GitHub</strong> for version control, code integration,
+                and change tracking.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="resume-col-head">
+          <svg class="icon" width="18" height="18" viewBox="0 0 24 24" style="color:var(--gold)">
+            <path d="m22 10-10-5L2 10l10 5 10-5Z" />
+            <path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5M22 10v6" />
+          </svg>
+          <h3 class="disp">Education</h3>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot dot-rose"></span>
+            <span class="timeline-connector"></span>
+          </div>
+          <div class="card timeline-card">
+            <div class="timeline-top">
+              <h4 class="timeline-title small">B.Tech Computer Science and Business Systems</h4>
+              <span class="timeline-date date-rose mono">Oct 2022 — April 2026</span>
+            </div>
+            <div class="timeline-org" style="margin-bottom:0;">Panimalar Engineering College, Chennai</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot dot-rose"></span>
+          </div>
+
+          <div class="card timeline-card">
+            <div class="timeline-top">
+              <h4 class="timeline-title small">
+                Higher Secondary Education (Class XII) — Computer Science & Mathematics
+              </h4>
+              <span class="timeline-date date-rose mono">2021 — 2022</span>
+              <span class="timeline-date date-rose mono">79.2%</span>
+            </div>
+
+            <div class="timeline-org" style="margin-bottom:0;">
+              Velammal Vidyalaya, Paruthipattu
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-dot dot-rose"></span>
+          </div>
+
+          <div class="card timeline-card">
+            <div class="timeline-top">
+              <div>
+                <h4 class="timeline-title small">
+                  Secondary Education (Class X)
+                </h4>
+                <span class="timeline-date date-rose mono">2019 — 2020</span>
+              </div>
+
+              <span class="timeline-date date-rose mono">82.4%</span>
+            </div>
+
+            <div class="timeline-org" style="margin-bottom:0;">
+              Velammal Vidyalaya, Paruthipattu
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-col-head" style="margin-top:28px;">
+          <svg class="icon" width="18" height="18" viewBox="0 0 24 24" style="color:var(--gold)">
+            <circle cx="12" cy="8" r="6" />
+            <path d="M15.5 13.4 17 22l-5-3-5 3 1.5-8.6" />
+          </svg>
+          <h3 class="disp">Certifications</h3>
+        </div>
+        <div class="certs-grid">
+          <div class="card cert-card" src>
+            <div class="cert-name">Data Analytics Professional Certificate</div>
+            <div class="cert-org mono">Google · 2025</div>
+          </div>
+          <div class="card cert-card">
+            <div class="cert-name">Career Essentials in Data Analysis</div>
+            <div class="cert-org mono">Microsoft &amp; LinkedIn · 2024</div>
+          </div>
+          <div class="card cert-card">
+            <div class="cert-name">Introduction to Machine Learning</div>
+            <div class="cert-org mono">Duke University · 2024</div>
+          </div>
+          <div class="card cert-card">
+            <div class="cert-name">Data Visualization &amp; Reporting with Generative AI</div>
+            <div class="cert-org mono">Microsoft · 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-head">
+      <div class="eyebrow mono">contact</div>
+      <h2 class="disp">Get In Touch</h2>
+      <div class="rule"></div>
+      <p>Have a project in mind or want to discuss data solutions? Reach out to me!</p>
+    </div>
+    <div class="two-col">
+      <div class="card contact-panel">
+        <h3 class="disp">Contact Info</h3>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 6-10 7L2 6" />
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">nethrashivanims@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <path
+                d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2Z" />
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+91 9444004173</div>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Chennai, India</div>
+          </div>
+        </div>
+        <h4>Connect With Me</h4>
+        <div class="social-row">
+          <a href="https://github.com/nethrashivani" class="icon-link social-circle" target="_blank" rel="noopener">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+            </svg>
+          </a>
+          <a href="https://linkedin.com/in/nethrashivani" class="icon-link social-circle" target="_blank"
+            rel="noopener">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24">
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+              <path d="M10 21v-7a3 3 0 0 1 6 0v7M10 12v9" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <form action="https://api.web3forms.com/submit" class="card" id="contact-form">
+        <h3 class="disp">Send Me a Message</h3>
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="Your name" required />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn-primary btn-block" id="send-btn">
+          <svg class="icon" width="15" height="15" viewBox="0 0 24 24">
+            <path d="m22 2-7 20-4-9-9-4Z" />
+            <path d="M22 2 11 13" />
+          </svg>
+          <span id="send-btn-label">Send Message</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span class="mono">© 2026 Nethrashivani M S · Chennai, India</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
