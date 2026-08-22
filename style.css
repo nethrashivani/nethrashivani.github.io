@@ -194,15 +194,11 @@ a.icon-link:hover { color: var(--gold); }
   }
 
   #home h1 {
-    /*
-      Keep "Nethrashivani M S" on ONE line.
-      Smaller mobile size prevents overflow.
-    */
-    font-size: clamp(1.55rem, 7.5vw, 2.3rem);
-    line-height: 1.1;
-    white-space: nowrap;
-    letter-spacing: -0.025em;
-  }
+  font-size: clamp(1.8rem, 8vw, 2.5rem);
+  line-height: 1.1;
+  white-space: normal;
+  letter-spacing: -0.025em;
+}
 
   .hero-role {
     font-size: 1.35rem;
