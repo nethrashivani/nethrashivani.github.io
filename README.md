@@ -1,4 +1,4 @@
-# Nethra Shivani — Portfolio
+# Nethrashivani — Portfolio
 
 Personal portfolio website showcasing my projects, technical skills, and experience as a Software Developer.
 
